@@ -3,6 +3,6 @@ name: default
 
 steps:
 - name: build
-  image: twillodotio/depmanger
+  image: virtuan/depmanger14
   commands:
   - go build
