@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 
 steps:
-- name: test
-  image: golang
+- name: build
+  image: twillodotio/depmanger
   commands:
   - go build
